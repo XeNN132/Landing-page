@@ -5,26 +5,27 @@
 	font-family: Roboto, sans-serif;
 	list-style: none;
 	text-decoration: none;
+	border: none;
 }
 
-body{
+body {
 	min-width: 630px;
 	margin: auto;
 }
 
-body>*{
-	padding-inline: 15%;
+body>* {
+	padding-inline: 12%;
 }
 
-a{
+a {
 	color: unset;
 }
 
-#hero{
+#hero {
 	background-color: #1f2937;
 }
 
-.logo{
+.logo {
 	font-size: 24px;
 	color: #f9faf8;
 }
@@ -40,4 +41,40 @@ a{
 	padding-block: 12px;
 	display: flex;
 	justify-content: space-between;
+}
+
+header{
+	padding-block: 60px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+header .main-text{
+	font-size: 48px;
+	font-weight: 700;
+	color: #f9faf8;
+}
+
+header .secondary-text{
+	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.background-blue{
+	background-color: #3882f6;
+}
+
+button{
+	padding: 0.5em 2em;
+	border-radius: 10px;
+}
+
+.image-placeholder{
+	height: 100%;
+	align-content: center;
+	text-align: center
+}
+
+.quote-section{
+	background-color:#e5e7eb70;
 }

@@ -55,7 +55,7 @@ header .main-text{
 	color: #f9faf8;
 }
 
-header .secondary-text{
+header .secondary-text, .call-to-action .secondary-text{
 	font-size: 18px;
 	color: #e5e7eb;
 }
@@ -66,9 +66,14 @@ header .secondary-text{
 
 button{
 	padding: 0.5em 2em;
-	border-radius: 10px;
+	border-radius: 8px;
+	color: white;
+	font-weight: bolder;
+	font-size: 18px;
+	height: fit-content;
 }
 
+.description,
 .image-placeholder{
 	height: 100%;
 	align-content: center;
@@ -77,4 +82,69 @@ button{
 
 .quote-section{
 	background-color:#e5e7eb70;
+}
+
+.info-section .header-text{
+	color: #1f2937;
+	font-size: 36px;
+	text-align: center;
+	margin-block: 0px 50px;
+}
+
+.illustration{
+	display: flex;
+	justify-content: space-between;
+	gap: 12px;
+	padding-inline: 20%;
+	flex-wrap: wrap;
+}
+.illustration>*{
+	flex-basis: 130px;
+	max-width: 170px;
+	margin: auto;
+	flex-grow: 0.2;
+}
+
+.illustration .image{
+	border: 3px  #3882f6 solid;
+	border-radius:12px;
+	aspect-ratio: 1;
+}
+
+.description{
+	margin-block: 0.6em;
+	color: #1f2937;
+}
+
+.quote-text{
+	font-size: 36px;
+	font-style: italic;
+}
+
+.aside{
+	display: inline-block;
+	text-align: right;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bolder;
+	font-style: unset;
+}
+
+section+section{
+	padding-block: 50px;
+}
+
+.outline-white{
+	outline: white 2px solid;
+}
+
+.call-to-action .header{
+	color: white;
+}
+
+.call-to-action {
+	display: flex;
+	justify-content: space-between;
+	padding: 3% 5%;
+	border-radius: 6px;
 }

@@ -95,11 +95,15 @@ footer{
 	margin-block: 0px 50px;
 }
 
+.illustration,
+.call-to-action{
+	padding-inline: 20%;
+}
+
 .illustration{
 	display: flex;
 	justify-content: space-between;
 	gap: 12px;
-	padding-inline: 20%;
 	flex-wrap: wrap;
 }
 .illustration>*{

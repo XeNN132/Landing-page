@@ -21,7 +21,8 @@ a {
 	color: unset;
 }
 
-#hero {
+#hero, 
+footer{
 	background-color: #1f2937;
 }
 
@@ -55,7 +56,9 @@ header .main-text{
 	color: #f9faf8;
 }
 
-header .secondary-text, .call-to-action .secondary-text{
+header .secondary-text, 
+.call-to-action .secondary-text,
+footer{
 	font-size: 18px;
 	color: #e5e7eb;
 }
@@ -74,7 +77,8 @@ button{
 }
 
 .description,
-.image-placeholder{
+.image-placeholder,
+footer{
 	height: 100%;
 	align-content: center;
 	text-align: center
@@ -132,6 +136,10 @@ button{
 
 section+section{
 	padding-block: 50px;
+}
+
+section+footer{
+	padding-block: 18px;
 }
 
 .outline-white{
